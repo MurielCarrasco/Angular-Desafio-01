@@ -1,0 +1,17 @@
+footer{
+    font-family: "kalam";
+    font-weight: 700;
+    background-color: #D7D6D3;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+
+pfooter{
+    margin-left: 200px;
+}
