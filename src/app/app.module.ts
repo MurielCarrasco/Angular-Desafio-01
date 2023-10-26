@@ -6,6 +6,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MenuComponent } from './menu/menu.component';
+import { UsersModule } from './users/users.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, UsersModule
   ],
   providers: [],
   bootstrap: [AppComponent]
